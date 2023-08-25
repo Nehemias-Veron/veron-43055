@@ -1,0 +1,82 @@
+/*-------nosotros--------*/
+main {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    font-size: 25px;
+    transition: 1;
+
+    }
+    main:hover {
+        transform: scale(1.1);
+
+    }
+
+
+/*----------promociones--------*/
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+   
+    
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background-color: #c69ff1;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.vianda {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 100px;
+}
+img {
+    border-radius: 100px;
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+
+/* -------fotos-----*/
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+}
+header, footer {
+    background-color: #b38cdd;
+    color: rgb(241, 224, 224);
+    text-align: center;
+    padding: 10px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+.vianda {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 250px;
+}
+img {
+    border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    
+}
