@@ -1,9 +1,37 @@
+
+/*----------index.html--------*/
+
+
+
+
+    
+
+
+
+
+
+
+
+
 /*-------nosotros--------*/
+
+body
+{
+    
+   background-image: url("../../imagenes/imagenes/fondo.jpeg");
+   background-size: cover;
+   background-repeat: none;
+
+}
+
+
 main {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    
     text-align: justify;
     font-size: 25px;
-    transition: 1;
+    transition: 0;
+    
 
     }
     main:hover {
@@ -13,7 +41,13 @@ main {
 
 
 /*----------promociones--------*/
+h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    border-radius: 500px;
+
+}
 body {
+   
     font-family: 'Bricolage Grotesque', sans-serif;
    
     
@@ -21,8 +55,8 @@ body {
     padding: 0;
 }
 header, footer {
-    background-color: #c69ff1;
-    color: white;
+   
+
     text-align: center;
     padding: 100px;
 }
@@ -32,11 +66,12 @@ main {
     justify-content: center;
     padding: 20px;
 }
+
 .vianda {
     margin: 10px;
-    border: 1px solid #ccc;
+    
     padding: 10px;
-    max-width: 100px;
+    max-width: 250px;
 }
 img {
     border-radius: 100px;
@@ -57,8 +92,8 @@ body {
     padding: 50px;
 }
 header, footer {
-    background-color: #b38cdd;
-    color: rgb(241, 224, 224);
+   
+   
     text-align: center;
     padding: 10px;
 }
@@ -68,15 +103,31 @@ main {
     justify-content: center;
     padding: 50px;
 }
-.vianda {
-    margin: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    max-width: 250px;
-}
+
 img {
     border-radius: 25px;
     max-width: 100%;
     height: auto;
+
+
     
+    
+}
+/*------contacto------*/
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.formulario label {
+    width: 100px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
 }
